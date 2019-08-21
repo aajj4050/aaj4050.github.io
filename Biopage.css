@@ -1,0 +1,222 @@
+body {
+	/*background-color: grey;*/
+	/*background-image: url(https://images.unsplash.com/photo-1421174667991-616e827a1c47?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1e6788a636c3f4b22bfe7f4a80a5850c&auto=format&fit=crop&w=1567&q=80);
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;*/
+	/*color: white;*/
+}
+
+header {
+	position: relative;
+	top: -20px;
+	text-align: center;
+	background-color: #b3e0ff;
+	height: 200px;
+}
+
+header h1 {
+	text-shadow: 2px 2px #215750;
+	font-size: 85px;
+	font-style: italic;
+	font-family: 'Noto Serif', serif;
+}
+
+header h3 {
+	text-shadow: 2px 2px #215750;
+}
+
+nav {
+	margin-top: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+nav ul a {
+	/*padding-top: 20px;*/
+	padding: 25px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: italic;
+	text-decoration: none;
+	
+}
+
+footer {
+	text-align: center;
+	clear: left;
+}
+
+/* unvisited link */
+a:link {
+  color: grey;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: darkblue;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+#div1 {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	justify-content: center;
+	flex-direction: column;
+}
+
+article {
+	display: flex;
+}
+
+article p {
+	margin: 30px;
+}
+/*#artisticcontemplative {
+	float: left;
+	/*vertical-align: top;*/
+}
+
+#para1 {
+	float: right;
+	width: 700px;
+	height: 500px;
+}
+
+#article1 {
+	/*border-right-style: double;*/
+	border-right: 2px solid #b3e0ff;
+}
+
+#article2 {
+	border-left: 2px solid #b3e0ff;
+}
+
+#article3 {
+	border-right: 2px solid #b3e0ff;
+}
+
+/*#para2 {
+	float: left;
+	width: 700px;
+	height: 500px;
+}*/
+
+#div1 article img {
+	border-radius: 20px 20px 20px 20px;
+	 /*transition: width 5s;*/
+}
+
+/*#div1 article img:hover
+                {
+                    width: 34%;
+                }*/
+
+
+
+hr {
+	clear: left;
+}
+
+.meimage {
+	width: 400px;
+	height: auto;
+	float: left;
+	clear: left;
+	margin-bottom: 50px;
+}
+
+
+/*#weirdcloseup {
+	width: 12%;
+	height: auto;
+}
+
+#redselfie {
+	width: 12%;
+	height: auto;
+}*/
+
+/*#crazyface {
+	width: 400px;
+	height: auto;
+	float: left;
+	clear: left;
+	margin-bottom: 50px;
+}*/
+
+/*#forestpathVA {
+	vertical-align: top;
+	width: 75%;
+	height: auto;
+}
+
+
+
+#article3 {
+	float: right;
+	width: 900px;
+	height: 200px;
+}
+*/
+
+
+/*@media screen and (max-width:1000px)
+        {
+            .container
+            {
+                width: 700px;
+                padding-top: 5px;
+            }
+
+            article
+            {
+                width: 200px;
+                padding: 10px;
+                margin-right: 5px;
+                font-size: 16px;
+            }
+
+            
+        }
+
+        @media screen and (max-width:760px)
+        {
+            .container
+            {
+                width: 370px;
+            }
+
+            article
+            {
+                width: 90%;
+                padding: 10px;
+                margin-bottom: 20px;
+                margin-right: 0;
+            }
+        }
+
+        @media screen and (max-width:400px)
+        {
+            .container
+            {
+                width: 260px;
+            }
+        }*/
